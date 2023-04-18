@@ -9,11 +9,9 @@ function Slide() {
       {imgs.map((img) =>(
 
         <Carousel.Item Key={imgs.id} interval={1000} className='Img'>
-            <img
-                className="d-block w-100"
-                src={img.urlImage}
-                alt={img.alt}
-            />
+            <iframe className="d-block w-100 h-100" src={img.urlImage} title="description"></iframe>
+
+          
             <Carousel.Caption>
                 <h3>{img.caption}</h3>
                 <p>{img.description}</p>

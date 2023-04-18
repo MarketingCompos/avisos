@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 function BasicExample() {
   return (
     
-    <Form className='form'>
+    <Form className='form' method='POST' action='app.json' id='form'>
       <Form.Group className="mb-3" controlId="url" id='url'>
         <Form.Label>URL</Form.Label>
         <Form.Control type="url" placeholder="Digite a URL" />
