@@ -11,11 +11,11 @@ function Slide() {
         <Carousel.Item Key={imgs.id} interval={1000} className='Img'>
             <img
                 className="d-block w-100"
-                src={imgs.urlImage}
+                src={img.urlImage}
                 alt={img.alt}
             />
             <Carousel.Caption>
-                <h3>{imgs.caption}</h3>
+                <h3>{img.caption}</h3>
                 <p>{img.description}</p>
             </Carousel.Caption>
         </Carousel.Item>
