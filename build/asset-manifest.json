@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/avisoscompos/static/css/main.cb06bf93.css",
+    "main.js": "/avisoscompos/static/js/main.d291e357.js",
+    "index.html": "/avisoscompos/index.html",
+    "main.cb06bf93.css.map": "/avisoscompos/static/css/main.cb06bf93.css.map",
+    "main.d291e357.js.map": "/avisoscompos/static/js/main.d291e357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb06bf93.css",
+    "static/js/main.d291e357.js"
+  ]
+}
